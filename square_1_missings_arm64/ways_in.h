@@ -1,0 +1,21 @@
+#ifndef WAYS_IN_H
+#define WAYS_IN_H
+
+
+
+class ways_in
+{
+    public:
+        ways_in();
+        virtual ~ways_in();
+        ways_in(const ways_in& other);
+        ways_in& operator=(const ways_in& other);
+        int way_one(long long int mainn);
+        int way_two(long long int mainn);
+
+    protected:
+
+    private:
+};
+
+#endif // WAYS_IN_H

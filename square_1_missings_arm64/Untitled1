@@ -1,0 +1,31 @@
+
+/*long long int rst=0;
+    rst=nmb*nmb;
+    smcd->cdi=0;
+    long long int mn=0;
+    mn=smcd->cdis(rst,4);
+    cout<<"with " << nmb << " * " << nmb << " ::== " << rst <<" and cdi as  " << mn <<"\n";
+    long long int one_piece_out=0;
+    one_piece_out=rst-1;
+    cout<<"if we leave first piece outside we take " << one_piece_out <<"\n";
+    cout<<"calculating internal pieces. Leave the Γ styles of numbers non counting \n";
+    long long int xnmb=0;
+    //for(int i=1;i<nmb;i++){
+    //   for(int j=1;j<nmb;j++){
+    //      xnmb+=1;
+    //   }
+    //}
+    //xnmb=rst-1;
+    xnmb=(nmb-1)*(nmb-1);
+
+    cout<<"the counter returns " << xnmb <<"\n";
+    long long int adding=0;
+    adding=one_piece_out + xnmb ;
+    long long int admn=0;
+    smcd->cdi=0;
+    admn=smcd->cdis(adding,4);
+    cout<<"adding of " << one_piece_out << " + " << xnmb << " ::== " << adding <<" and cdi of " << admn <<"\n";
+    long double xri=0;
+    xri=(long double)adding /(long double)one_piece_out;
+    cout<<std::setprecision(9) << xri <<"\n";
+    */

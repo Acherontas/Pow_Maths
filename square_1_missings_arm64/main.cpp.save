@@ -1,0 +1,43 @@
+#include <iostream>
+#include <iomanip>
+#include <math.h>
+#include <string>
+#include "sum_cdi.h"
+using namespace std;
+
+int main(int argc,char** argv)
+{
+    sum_cdi *smcd=new sum_cdi();
+    cout<<"enter a number \n";
+    long long int nmb=0;
+    cin>>nmb;
+    long long int remove_one=0;
+    remove_one=nmb-1;
+    cout<<"we have " << nmb << " with " << remove_one <<"\n";
+    
+    long long int rst=0;
+    rst=nmb*nmb;
+    cout<<nmb << " * " << nmb << " ::== " << rst <<"\n";
+    
+    long long int xnmb=0;
+    xnmb=nmb+remove_one;
+    cout<<nmb << " + " << remove_one << " ::== " << xnmb <<"\n";
+    
+    long long int xrst=0;
+    xrst=xnmb*nmb;
+    cout<<xnmb << " * " << nmb << " ::== " << xrst <<"\n";
+    
+    long long int one_r=0;
+    one_r=xrst-remove_one;
+    cout<<xrst << " - " << remove_one << " ::== " << one_r <<"\n";
+    
+    long long int two_r=0;
+    two_r=one_r-rst;
+    cout<<one_r << " - " << rst << " ::== " << two_r <<"\n";
+    
+    
+    
+
+
+    return 0;
+}

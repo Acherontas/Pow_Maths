@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1761401277 source:/home/acherontas/codeblocks/square_1_missings_arm64/sum_cdi.cpp
+	"sum_cdi.h"
+
+1761401277 /home/acherontas/codeblocks/square_1_missings_arm64/sum_cdi.h
+	<iostream>
+	<string>
+	<math.h>
+	<iomanip>
+
+1762099886 source:/home/acherontas/codeblocks/square_1_missings_arm64/main.cpp
+	<iostream>
+	<iomanip>
+	<math.h>
+	<string>
+	"ways_in.h"
+
+1762096635 /home/acherontas/codeblocks/square_1_missings_arm64/ways_in.h
+
+1762099834 source:/home/acherontas/codeblocks/square_1_missings_arm64/ways_in.cpp
+	"ways_in.h"
+	"sum_cdi.h"
+	<iostream>
+
